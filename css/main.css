@@ -9,7 +9,7 @@ body, html {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #fff;
 	font-size: 11px;
-	background: #111;
+	background: #fff;
 }
 
 
@@ -25,10 +25,10 @@ header {
 	padding: 0 8px 8px 8px;
 	overflow: hidden;
 	z-index: 5;
-	
+
 	background: rgba( 30, 50, 50, 0.5 );
 	color: #eee;
-	
+
 	-webkit-transition: height .22s ease-out;
 	   -moz-transition: height .22s ease-out;
 	     -o-transition: height .22s ease-out;
@@ -38,21 +38,21 @@ header {
 	header.open {
 		height: 165px;
 	}
-	
+
 	header h1 {
 		font-family: Molengo, Helvetica, Arial, sans-serif;
 		float: left;
 		margin-top: 1px;
 	}
-	
+
 	header .header-instruction {
 		float: left;
 		margin: 12px 0 0 15px;
-		
+
 		font-size: 10px;
 		font-style: italic;
 		color: #999;
-		
+
 		-webkit-transition: opacity .18s linear;
 		   -moz-transition: opacity .18s linear;
 		     -o-transition: opacity .18s linear;
@@ -64,7 +64,7 @@ header {
 	header div.extra {
 		margin: 45px 0 0 20px;
 		clear: both;
-		
+
 		-webkit-transition: opacity .18s linear;
 		   -moz-transition: opacity .18s linear;
 		     -o-transition: opacity .18s linear;
@@ -76,7 +76,7 @@ header {
 		header a {
 			padding: 2px 4px 2px 2px;
 			color: #999;
-			
+
 			-webkit-transition: all .1s ease-out;
 			   -moz-transition: all .1s ease-out;
 			     -o-transition: all .1s ease-out;
@@ -84,7 +84,7 @@ header {
 		}
 			header a:hover {
 				padding: 2px 4px 2px 2px;
-				
+
 				color: #ddd;
 				background-color: #333;
 				border-radius: 1px;
@@ -93,12 +93,12 @@ header {
 			height: 120px;
 			padding: 0 25px;
 			float: left;
-			
+
 			border-left: 1px #333 solid;
 		}
 		header p {
 			margin-bottom: 5px;
-			
+
 			font-size: 12px;
 			letter-spacing: 0.05em;
 		}
@@ -108,7 +108,7 @@ header {
 		}
 		#about p.credits {
 			margin: 15px 0 2px 0;
-			
+
 			font-style: italic;
 			color: #666;
 			font-size: 11px;
@@ -117,14 +117,14 @@ header {
 		#about a:hover {
 			padding: 2px 10px 2px 8px;
 		}
-		#share iframe, 
+		#share iframe,
 		#share div {
 			display: inline-block;
 		}
 		#retweet-button {
 			margin-right: 6px;
 		}
-		
+
 a[href="http://www.w3counter.com"] {
 	display: none!important;
 }
@@ -143,18 +143,18 @@ a[href="http://www.w3counter.com"] {
 
 #game {
 	background: url('../images/background.jpg');
-	
+
 	position: absolute;
 	display: none;
 	border: 1px solid #222222;
 	border-radius: 2px;
-	
+
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	
+
 	color: #f4f4f4;
 	text-align: center;
-	
+
 	-webkit-box-shadow: 0 0 10px #000;
 	   -moz-box-shadow: 0 0 10px #000;
 	     -o-box-shadow: 0 0 10px #000;
@@ -180,16 +180,16 @@ a[href="http://www.w3counter.com"] {
 	display: none;
 	width: 830px;
 	height: 440px;
-	
+
 	background: rgba(40,60,60,0.4);
 	border-radius: 6px;
-	
+
 	z-index: 3;
-	
+
 	-webkit-box-shadow: 0 0 20px rgba(0,250,200,0.1);
 	   -moz-box-shadow: 0 0 20px rgba(0,250,200,0.1);
 	        box-shadow: 0 0 20px rgba(0,250,200,0.1);
-	
+
 	background-image: -moz-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
 	background-image: -ms-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
 	background-image: -o-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
@@ -197,7 +197,7 @@ a[href="http://www.w3counter.com"] {
 	background-image: -webkit-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%));
 	background-image: radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
 }
-	
+
 	#menu h1 {
 		text-shadow: 0 0 20px rgba(20,70,60,1);
 		font-size: 86px;
@@ -210,52 +210,52 @@ a[href="http://www.w3counter.com"] {
 		.loser #menu h1 {
 			display: none;
 		}
-	
+
 	#menu section {
 		display: none;
 		padding: 15px;
 		margin: 5px;
 		width: 230px;
-		
+
 		background: rgba(0,0,0,0.1);
-		
+
 		vertical-align: text-top;
-		
+
 		border-radius: 6px;
 	}
-	
+
 	#menu h2 {
 		font-size: 15px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
 	}
-	
+
 	#menu .button {
 		display: inline-block;
 		padding: 6px 18px 6px 18px;
-		
+
 		background: rgba(0,0,0,0.4);
 		color: #fff;
 		text-decoration: none;
 		font-size: 20px;
-		
+
 		border-radius: 4px;
-		
+
 		-webkit-transition: all .19s ease-out;
 	       -moz-transition: all .19s ease-out;
 	         -o-transition: all .19s ease-out;
 	            transition: all .19s ease-out;
 	}
-	
+
 		#menu .button:hover {
 			background: rgba(0,0,0,0.7);
-			
+
 			-webkit-box-shadow: 0 0 10px rgba(0,250,200,0.2);
 			   -moz-box-shadow: 0 0 10px rgba(0,250,200,0.2);
 			     -o-box-shadow: 0 0 10px rgba(0,250,200,0.2);
 			        box-shadow: 0 0 10px rgba(0,250,200,0.2);
 		}
-	
+
 	#menu .welcome {
 		display: inline-block;
 	}
@@ -264,11 +264,11 @@ a[href="http://www.w3counter.com"] {
 	margin: 20px 0 15px;
 	display: none;
 }
-	
+
 	#score h3 {
 		font-size: 22px;
 	}
-	
+
 	#score p {
 		color: rgba(100,240,255,0.9);
 		font-size: 64px;
@@ -289,4 +289,3 @@ a[href="http://www.w3counter.com"] {
 		color: #aaa;
 		text-decoration: none;
 	}
-
