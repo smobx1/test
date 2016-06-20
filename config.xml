@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "wta.nameit.example"
+        id          = "notap.designroom.example"
         versionCode = "1"
         version     = "1.0" >
 
@@ -32,7 +32,7 @@
     <name>Notap</name>
 
     <description>
-        Name it! Tennis Quiz WTA.
+        No tap!
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
