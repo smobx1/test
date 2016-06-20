@@ -178,9 +178,9 @@ a[href="http://www.w3counter.com"] {
 #menu {
 	position: absolute;
 	display: none;
-	width: 830px;
+	width: 60%;
 	height: 440px;
-
+	margin:auto;
 	background: rgba(40,60,60,0.4);
 	border-radius: 6px;
 
