@@ -13,8 +13,8 @@ var Coil = (function(){
 	var width_device_1 = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 	var height_device_1 = (window.innerHeight > 0) ? window.innerHeight : screen.height;
 
-	var DEFAULT_WIDTH = (width_device_1-50),
-		DEFAULT_HEIGHT = (height_device_1-50);
+	var DEFAULT_WIDTH = width_device_1,
+		DEFAULT_HEIGHT = height_device_1;
 
 	// Flags if the game should output debug information
 	var DEBUG = URLUtil.queryValue('debug') == '1';
