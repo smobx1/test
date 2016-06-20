@@ -27,6 +27,8 @@
     <preference name="StatusBarBackgroundColor" value="#000000"/>
     <preference name="StatusBarStyle" value="lightcontent" />
 
+    <preference name="Orientation" value="landscape" />
+
 
 
     <name>Notap</name>
